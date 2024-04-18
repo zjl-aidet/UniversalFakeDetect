@@ -62,7 +62,6 @@ if __name__ == '__main__':
 
         if epoch % opt.save_epoch_freq == 0:
             print('saving the model at the end of epoch %d' % (epoch))
-            model.save_networks( 'model_epoch_best.pth' )
             model.save_networks( 'model_epoch_%s.pth' % epoch )
 
         # Validation
