@@ -10,3 +10,4 @@ tqdm
 ftfy
 regex
 scikit-image
+gradio
